@@ -12225,3 +12225,68 @@ header .avatar-container i {
   font-size: 13px;
   margin-right: 3px;
 }
+
+/*=========================
+  Footer
+ ================= */
+footer {
+  padding: 80px 0 60px 0;
+  background: #242424;
+  margin: 0;
+}
+footer .copyright {
+  text-align: center;
+  color: white;
+}
+footer .social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+footer .social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+footer .social-network li .icoRss:hover {
+  background-color: #F56505;
+}
+footer .social-network li .icoFacebook:hover {
+  background-color: #3B5998;
+}
+footer .social-network li .icoTwitter:hover {
+  background-color: #33ccff;
+}
+footer .social-network li .icoGoogle:hover {
+  background-color: #BD3518;
+}
+footer .social-network li .icoLinkedin:hover {
+  background-color: #007bb7;
+}
+footer .social-circle a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  background: #35A49C;
+}
+footer .social-circle a i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+footer .social-circle a:hover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}

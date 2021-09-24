@@ -239,3 +239,90 @@ header {
 		}
 	}
 }
+
+/*=========================
+  Footer
+ ================= */
+
+footer {
+	padding: 80px 0 60px 0;
+	background: #242424;
+	margin: 0;
+
+	.copyright {
+		text-align: center;
+		color: white;
+	}
+	
+	.social-network {			
+		list-style: none;
+		display: inline;
+		margin-left:0 !important;
+		padding: 0;
+
+		li {
+			display: inline;
+			margin: 0 5px;			
+			
+			.icoRss:hover {
+				background-color: #F56505;
+			}	
+
+			.icoFacebook:hover {
+				background-color:#3B5998;
+			}		
+
+			.icoTwitter:hover {
+					background-color:#33ccff;
+			}
+
+			.icoGoogle:hover {
+				background-color:#BD3518;
+			}
+
+			.icoLinkedin:hover {
+				background-color:#007bb7;
+			}
+		}
+	}	
+
+	.social-circle {
+		a {
+			display:inline-block;
+			position:relative;
+			margin:0 auto 0 auto;
+			-moz-border-radius:50%;
+			-webkit-border-radius:50%;
+			border-radius:50%;
+			text-align:center;
+			width: 50px;
+			height: 50px;
+			font-size:20px;
+			background: #35A49C;
+
+			i {
+				margin:0;
+				line-height:50px;
+				text-align: center;
+				color: #fff;
+				-webkit-transition: all 0.8s;
+				-moz-transition: all 0.8s;
+				-o-transition: all 0.8s;
+				-ms-transition: all 0.8s;
+				transition: all 0.8s;
+			}
+
+			&:hover {
+				-moz-transform: rotate(360deg);
+				-webkit-transform: rotate(360deg);
+				-ms--transform: rotate(360deg);
+				transform: rotate(360deg);
+				-webkit-transition: all 0.2s;
+				-moz-transition: all 0.2s;
+				-o-transition: all 0.2s;
+				-ms-transition: all 0.2s;
+				transition: all 0.2s;			
+			}
+		}
+	}	
+}
